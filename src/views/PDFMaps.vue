@@ -26,7 +26,7 @@ import { computed, ref } from 'vue'
 export default {
   setup() {
     const store = useStore();
-    const items = computed(() => store.getters.getItems('pdfmaps'))
+    const items = computed(() => store.getters.getItems('pdfMaps'))
 
 
     return { items, store }
