@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="font-serif text-5xl mt-12 mb-12 2xl:mt-18 2xl:mb-8 font-bold" style="color: #4a4a4a">GIS Downloads</h1>
+    <h1 class="font-serif text-5xl mt-12 mb-12 2xl:mt-18 2xl:mb-8 font-bold" style="color: #4a4a4a">Maps & PDF's</h1>
     <div class="m-auto pb-12 pt-10 grid grid-cols-1 lg:grid-cols-3 lg:w-9/12 2xl:w-6/12">
       <div
         v-for="item in items"
