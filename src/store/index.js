@@ -30,7 +30,7 @@ const store = createStore({
 			{ type: 'external', name: 'Council Districts', url: 'https://experience.arcgis.com/experience/f2ead96f4ef14f19bf2e23767b65d200' },
 			{ type: 'external', name: 'Development Projects', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/5628948f1c1a464da61cc0bf966badf0' },
 			{ type: 'external', name: 'Emergency Sirens', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/a3685004829d4465abd34e067f30c5fb' },
-			{ type: 'external', name: 'Flood Zones (2023)', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/0544b4d51106433ba1c0637fb2c5f724' },
+			{ type: 'external', name: 'Flood Zones (2023)', url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=a8237551de654fa1ab568ad83c685253' },
 			{ type: 'external', name: 'Future Landuse', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/f408802be3f04be2a2c699a033a878b3' },
 			{ type: 'external', name: 'Parks & Recreation', url: 'https://experience.arcgis.com/experience/7f30c9436abd408391d472171b504f3c/?draft=true' },
 			{ type: 'external', name: 'Planning & Zoning', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/da82c92929e34750a26d95d5f8738cc6' },
