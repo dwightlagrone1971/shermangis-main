@@ -72,7 +72,7 @@ const store = createStore({
 			{ type: 'internal', name: 'Storm Water Fees', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c'},
 			
 			{ type: 'menuItems', name: 'Featured Items', to: '/' },
-			{ type: 'menuItems', name: 'GIS Downloads', to: '/download' },
+			{ type: 'menuItems', name: 'GIS Data', to: '/download' },
 			{ type: 'menuItems', name: 'Infographics', to: '/infographics' },
 			{ type: 'menuItems', name: 'Internal Maps', to: '/internal' },
 			{ type: 'menuItems', name: 'Maps', to: '/pdfmaps' },
