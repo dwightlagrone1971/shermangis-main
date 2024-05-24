@@ -13,11 +13,12 @@ const store = createStore({
 			{ type: 'contacts', name:'Dwight LaGrone', title:"GIS Manager", employer:'City of Sherman', address:'405 N Rusk St', city:'Sherman', state: '75090', phone:'(903) 892-7310', email:'mailto:dwightl@cityofsherman.com' },
 			{ type: 'contacts', name:'Jerry Pace', title:"GIS Technician - Engineering", employer:'City of Sherman', address:'220 W Mulberry St', city:'Sherman', state:'Tx', zip:'75090', phone:'(903) 892-7621', email:'mailto:jerryp@cityofsherman.com' },
 			{ type: 'contacts', name:'Cody Franks', title:"GIS Technician - Public Works", employer:'City of Sherman', address:'100 S Rusk St', city:'Sherman', state:'Tx', zip:'75090', phone:'(903) 892-7195', email:'mailto:codyf@cityofsherman.com' },
-
+			
 			{ type: 'downloads', name: 'Addresses', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/1c8bddf80c784970ad88baac8290dd16_0/about" },
 			{ type: 'downloads', name: 'Annexations', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/8a158564e0ff4455b90253cb75c971c4_0/about" },
 			{ type: 'downloads', name: 'Building Footprints', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/a776a7f9406940989b3a123b86cadba2_1/about" },
 			{ type: 'downloads', name: 'City Limits & ETJ', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::city-limits-etj-view/about" },
+			{ type: 'downloads', name: 'Contours', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::contours-2ft-2022/about" },
 			{ type: 'downloads', name: 'Parcels', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::parcels-view/about" },
 			{ type: 'downloads', name: 'Road Centerlines', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/6062350306cf4e41ae2b1e2aa6de0f83_2/about" },
 			{ type: 'downloads', name: 'Zoning Districts', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::zoning-districts-view/about" },
