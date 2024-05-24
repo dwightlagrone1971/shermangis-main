@@ -18,6 +18,7 @@ const store = createStore({
 			{ type: 'downloads', name: 'Annexations', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/8a158564e0ff4455b90253cb75c971c4_0/about" },
 			{ type: 'downloads', name: 'Building Footprints', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/a776a7f9406940989b3a123b86cadba2_1/about" },
 			{ type: 'downloads', name: 'City Limits & ETJ', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::city-limits-etj-view/about" },
+			{ type: 'downloads', name: 'Parcels', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::parcels-view/about" },
 			{ type: 'downloads', name: 'Road Centerlines', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/6062350306cf4e41ae2b1e2aa6de0f83_2/about" },
 			{ type: 'downloads', name: 'Zoning Districts', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::zoning-districts-view/about" },
 
