@@ -21,8 +21,6 @@ const store = createStore({
 			{ type: 'downloads', name: 'Road Centerlines', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/6062350306cf4e41ae2b1e2aa6de0f83_2/about" },
 			{ type: 'downloads', name: 'Zoning Districts', url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::zoning-districts-view/about" },
 
-
-			https://services7.arcgis.com/iMHDvyzuG2Q2tuit/arcgis/rest/services/Contours_2Ft_2022/FeatureServer
 			{ type: 'external', name: 'Annexations', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/2848ecc1229d454fa962392967548752' },
 			{ type: 'external', name: 'CIP Projects', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/818c88c6c1264590810cb91a0db2c24a' },
 			{ type: 'external', name: 'City Project Site (Original)', url: 'https://experience.arcgis.com/experience/edf1ffbd9dae4b12aeefc8b1ba594b26' },
