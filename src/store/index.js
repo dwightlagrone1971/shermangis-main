@@ -31,7 +31,7 @@ const store = createStore({
 			{ type: 'external', name: 'Emergency Sirens', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/a3685004829d4465abd34e067f30c5fb' },
 			{ type: 'external', name: 'Flood Zones (2023)', url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=a8237551de654fa1ab568ad83c685253' },
 			{ type: 'external', name: 'Future Landuse', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/f408802be3f04be2a2c699a033a878b3' },
-			{ type: 'external', name: 'Parks & Recreation', url: 'https://experience.arcgis.com/experience/7f30c9436abd408391d472171b504f3c/?draft=true' },
+			{ type: 'external', name: 'Parks & Recreation', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/af44c4110ca24cc28ead1a6feac24a54' },
 			{ type: 'external', name: 'Planning & Zoning', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/da82c92929e34750a26d95d5f8738cc6' },
 			{ type: 'external', name: 'Sex Offender Restricted Areas', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/7797ab097a38493da51128f124d91370' },
 			{ type: 'external', name: 'Sherman Schools', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/ba7afb45ee6d4e028fe81721efae9d01' },
