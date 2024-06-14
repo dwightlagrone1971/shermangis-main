@@ -68,6 +68,7 @@ const store = createStore({
 			{ type: 'internal', name: 'Code Simple Map', url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=97013d9eff694c059406229d9df88b37'},
 			{ type: 'internal', name: 'Detailed Parks Map', url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cf482ea52d5740ddb490a36157167b74'},
 			{ type: 'internal', name: 'Flushing Locations', url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cd171035c62b4db98271bafaf78f5758'},
+			{ type: 'internal', name: 'Hydrant Maintenance', url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/0156ab1a620d49a0b052814da3be563a'},
 			{ type: 'internal', name: 'Mowing Map', url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=ddab962963934f83bc0639b135562d26'},
 			{ type: 'internal', name: 'Storm Water Fees', url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c'},
 			
