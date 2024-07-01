@@ -3,7 +3,7 @@
 
       <Header />
       <Menu />
-      <router-view class="h-screen"/>
+      <router-view />
       <Footer class="footer" />
 
   </div>
