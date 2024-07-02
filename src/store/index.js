@@ -105,82 +105,92 @@ const store = createStore({
 			{ 
 				type: 'external', 
 				name: 'Annexations', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/2848ecc1229d454fa962392967548752' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/2848ecc1229d454fa962392967548752',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/bc5e593043d14fc6b2980699d5001ebe/data'
 			},
 			{ 
 				type: 'external', 
 				name: 'CIP Projects', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/818c88c6c1264590810cb91a0db2c24a' 
-			},
-			{ 
-				type: 'external', 
-				name: 'City Project Site (Original)', 
-				url: 'https://experience.arcgis.com/experience/edf1ffbd9dae4b12aeefc8b1ba594b26' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/818c88c6c1264590810cb91a0db2c24a',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c42c56982bf344a38405c3cfc48d8c9e/data'
 			},
 			{ 
 				type: 'external', 
 				name: 'Council Districts', 
-				url: 'https://experience.arcgis.com/experience/f2ead96f4ef14f19bf2e23767b65d200' 
+				url: 'https://experience.arcgis.com/experience/f2ead96f4ef14f19bf2e23767b65d200',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/951cc7fd96664998934c4373d8bacafd/data'
 			},
 			{ 
 				type: 'external', 
 				name: 'Development Projects', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/5628948f1c1a464da61cc0bf966badf0' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/5628948f1c1a464da61cc0bf966badf0',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/b18335e2c35641b389e59ec336a3aca1/data' 
 			},
 			{ 
 				type: 'external', 
 				name: 'Emergency Sirens', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/a3685004829d4465abd34e067f30c5fb' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/a3685004829d4465abd34e067f30c5fb',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/eb30a431e23446ed943f0c93bcd93ef7/data'
 			},
 			{ 
 				type: 'external', 
 				name: 'Flood Zones', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/6a2aedbb87a64b459e5eb2bdac3f4503' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/6a2aedbb87a64b459e5eb2bdac3f4503',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7c1e45f0c48e4c2f83389664b5e992d6/data'
 			},
 			{ 
 				type: 'external', 
 				name: 'Future Landuse', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/f408802be3f04be2a2c699a033a878b3' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/f408802be3f04be2a2c699a033a878b3',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/b9587e145a7246c88755c1c54d398f37/data' 
 			},
 			{ 
 				type: 'external', 
 				name: 'Parks & Recreation', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/af44c4110ca24cc28ead1a6feac24a54' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/af44c4110ca24cc28ead1a6feac24a54',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/179f8f73da83415d8a3cebe636476972/data' 
 			},
 			{ 
 				type: 'external', 
 				name: 'Planned Developments', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/65fcbad2b4cb41cd94c5e33caca3232d' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/65fcbad2b4cb41cd94c5e33caca3232d',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/96cfedf7c4984ee4acbfb497f05cf86a/data' 
 			},
 			{ 
 				type: 'external', 
 				name: 'Planning & Zoning', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/da82c92929e34750a26d95d5f8738cc6' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/da82c92929e34750a26d95d5f8738cc6',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5a46e385dab4445aa4a0bcf15cae8f3c/data'
 			},
 			{ 
 				type: 'external', 
 				name: 'Sex Offender Restricted Areas', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/7797ab097a38493da51128f124d91370' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/7797ab097a38493da51128f124d91370',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f80338cd1cee44e2b559282d62047286/data' 
 			},
 			{ 
 				type: 'external', 
 				name: 'Sherman Schools', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/ba7afb45ee6d4e028fe81721efae9d01' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/ba7afb45ee6d4e028fe81721efae9d01',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/2882ced8809d426da30c6de4d50aac7a/data' 
 			},
 			{ 
 				type: 'external', 
 				name: 'Thoroughfares', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/3b28c17a8cac472ab8ff18b0576cacfe' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/3b28c17a8cac472ab8ff18b0576cacfe',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d5fc0f0b09524caa95be623e0271680a/data' 
 			},
 			{ 
 				type: 'external', 
 				name: 'Trash Pickup Days', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cfa6684c762648a3b93fcf69d032eb99/data'
 			},
 			{ 
 				type: 'external', 
 				name: 'Zoning Districts', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/1e77f1f404ae4ff58043b6c88cdf1fd1' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/1e77f1f404ae4ff58043b6c88cdf1fd1',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4fdf4221cc794c64a7470b2e1ea62d71/data'
 			},			
 			/* Featured Page */
 			{ 
