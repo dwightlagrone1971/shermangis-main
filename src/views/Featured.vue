@@ -1,5 +1,5 @@
 <template>
-  <h1 class="font-serif m-auto mt-12 mb-4 text-5xl 2xl:mt-18 2xl:mb-1 font-bold" style="color: #4a4a4a">GIS Data</h1>
+  <h1 class="font-serif m-auto mt-12 mb-4 text-5xl 2xl:mt-18 2xl:mb-1 font-bold" style="color: #4a4a4a">Featured Maps</h1>
   <div class="m-auto h-full 2xl:mb-8">
     <router-link
       class="m-auto mt-8 w-72 lg:w-60 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
