@@ -1,21 +1,17 @@
 <template>
-  <div>
-    <h1 class="font-serif text-5xl mt-12 mb-12 2xl:mt-18 2xl:mb-8 font-bold" style="color: #4a4a4a">GIS Downloads</h1>
-    <div class="m-auto pb-12 pt-10 grid grid-cols-1 lg:grid-cols-3 lg:w-9/12 2xl:w-6/12">
-      <div
-        v-for="item in items"
+  <h1 class="font-serif m-auto mt-12 mb-12 text-5xl 2xl:mt-18 2xl:mb-20 mb-10 font-bold" style="color: #4a4a4a">GIS Downloads</h1>
+  <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-4 2xl:gap-10">
+    <div
+       v-for="item in items"
         :key="item"
-        style="background-color: #4a4a4a;"
-        class="font-serif m-auto mb-6 pb-10 w-60 2xl:w-60 h-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
-        <a :href="item.url" :title="item.name" target="_blank">
-          <div
-            class="font-serif text-md p-3 2xl:mb-6"
-            style="color: #f8f8f8;">
-            {{ item.name }}
-          </div>
-        </a>
+    >
+        <a :href=item.url target=”_blank >
+          <img 
+          class="h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" 
+          :src=item.src alt="">
+        </a>       
+        <h3 class="font-bold mb-10 mt-2" style="color: #4a4a4a">{{ item.name }}</h3>
       </div>
-    </div>
   </div>
 </template>
 
@@ -36,6 +32,13 @@ export default {
 
 </script>
 
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .images {
+    background: url("https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/0b342b43290044abbc68fe681f9b727c/data");
+    width: 5000px;
+    height: 500px;
+  }
+  
 </style>
