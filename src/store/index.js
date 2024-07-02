@@ -6,6 +6,7 @@ const store = createStore({
 	state: () => ({
 		currentItems: [],
 		items: [
+			/* About Page */
 			{ 
 				type: 'about', 
 				name: 'What is GIS?', 
@@ -21,7 +22,7 @@ const store = createStore({
 				name: 'Contact US', 
 				to: '/contacts' 
 			},
-
+            /* Contacts Page*/
 			{ 
 				type: 'contacts', 
 				name:'Dwight LaGrone', 
@@ -51,7 +52,7 @@ const store = createStore({
 				phone:'(903) 892-7195', 
 				email:'mailto:codyf@cityofsherman.com' 
 			},
-			
+			/* Downloads */
 			{ 
 				type: 'downloads', 
 				name: 'Addresses', 
@@ -100,7 +101,7 @@ const store = createStore({
 				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::zoning-districts-view/about", 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4fdf4221cc794c64a7470b2e1ea62d71/data' 
 			},
-
+            /* External Page */
 			{ 
 				type: 'external', 
 				name: 'Annexations', 
@@ -181,23 +182,26 @@ const store = createStore({
 				name: 'Zoning Districts', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/1e77f1f404ae4ff58043b6c88cdf1fd1' 
 			},			
-			
+			/* Featured Page */
 			{ 
 				type: 'featured', 
 				name: 'ALL-IN-ONE', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/cb19b06c606f4ce1bd9e96b8817d4e07' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/cb19b06c606f4ce1bd9e96b8817d4e07',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cc892bfe9583420084f8c027135d343f/data'  
 			},
 			{ 
 				type: 'featured', 
 				name: 'Residential Dashboard', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d9cecb6527824cb697e02160d68caf4e/data'   
 			},
 			{ 
 				type: 'featured', 
 				name: 'City Projects Site', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/7ef89fd885e04d8e82d4ff2195a94b94' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/7ef89fd885e04d8e82d4ff2195a94b94',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c42c56982bf344a38405c3cfc48d8c9e/data'   
 			},
-			
+			/* Footer Page */
 			{ 
 				type: 'footer', 
 				name: "Sherman", 
@@ -228,7 +232,7 @@ const store = createStore({
 				url: "https://www.esri.com/en-us/home", 
 				alt:"ESRI" 
 			},
-			                                                           
+			/* Infographics Page */                                                           
 			{ 
 				type: 'infographics', 
 				name: '2023 Census Summary', 
@@ -301,7 +305,7 @@ const store = createStore({
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d408af53cef744f8b492fc0516df7a36/data', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/b060991302eb42469e69ee75c074d705/data' 
 			},
-			
+			/* Internal Page */
 			{ 
 				type: 'internal', 
 				name: 'Code Incidents (2024)', 
@@ -350,7 +354,7 @@ const store = createStore({
 				url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8f1c813391004107a02eb625241c99c0/data'
 			},
-			
+			/* Menu Page */
 			{ 
 				type: 'menuItems', 
 				name: 'Featured Items', 
@@ -381,7 +385,7 @@ const store = createStore({
 				name: 'About Page', 
 				to: '/about' 
 			},			
-			
+			/* PDF Maps Page */
 			{ 
 				type: 'pdfMaps', 
 				name: 'City Limits', 

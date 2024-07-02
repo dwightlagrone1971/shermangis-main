@@ -1,21 +1,6 @@
 <template>
-  <div>
-    <h1 class="font-serif text-5xl mt-12 mb-12 font-bold 2xl:mt-18 2xl:mb-16" style="color: #4a4a4a">Featured Items</h1>
-    <div class="m-auto grid grid-cols-1 lg:grid-cols-3 lg:w-8/12 2xl:w-6/12">
-      <div
-        v-for="item in items"
-        :key="item"
-        style="background-color: #4a4a4a;"
-        class="font-serif m-auto mb-6 pb-10 w-60 2xl:w-60 h-12 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">
-        <a :href="item.url" :title="item.name" target="_blank">
-          <div
-            class="font-serif text-lg p-3"
-            style="color: #f8f8f8;">
-            {{ item.name }}
-          </div>
-        </a>
-      </div>
-    </div>
+  <h1 class="font-serif m-auto mt-12 mb-4 text-5xl 2xl:mt-18 2xl:mb-1 font-bold" style="color: #4a4a4a">GIS Data</h1>
+  <div class="m-auto h-full 2xl:mb-8">
     <router-link
       class="m-auto mt-8 w-72 lg:w-60 inline-block transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none"
       style="background-color: #4a4a4a;"
@@ -23,6 +8,19 @@
     >
       <div class="font-serif text-lg p-2 shadow-2xl" style="color: #f8f8f8;">More Maps</div>
     </router-link>
+  </div>
+  <div class="m-auto w-40 grid h-fit grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-3 2xl:gap-10">
+    <div
+      v-for="item in items"
+      :key="item"
+    >
+      <a :href=item.url target=”_blank >
+        <img 
+        class="h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" 
+        :src=item.src alt="">
+      </a>       
+      <h3 class="font-bold mb-10 mt-2" style="color: #4a4a4a">{{ item.name }}</h3>
+    </div>
   </div>
 </template>
 
