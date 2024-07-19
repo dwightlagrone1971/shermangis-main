@@ -40,6 +40,12 @@ export default {
 body {
   background-size: cover;
   background-image: url('https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5b951cedd3b3404e89b120e839894be7/data');
+  
+}
+.bg-image {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
 }
 
 </style>

@@ -10,7 +10,7 @@
       </div>
       <img
         alt="City of Sherman"
-        class="w-screen h-80 z-0"
+        class="w-screen h-80 z-0 blur-lg"
         src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8c29f25290cd448a88f36ac6fd53a20e/data"
         />
     <div>

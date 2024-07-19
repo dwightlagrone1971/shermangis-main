@@ -361,6 +361,14 @@ const store = createStore({
 			{ 
 				type: 'internal', 
 				name: 'Storm Water Fees', 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/789607a5260b4fe5a0d4fe2ecef8c24b', 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8f1c813391004107a02eb625241c99c0/data'
+
+				https://cityofsherman.maps.arcgis.com/apps/dashboards/789607a5260b4fe5a0d4fe2ecef8c24b
+			},
+			{ 
+				type: 'internal', 
+				name: 'UB Accounts', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8f1c813391004107a02eb625241c99c0/data'
 			},
