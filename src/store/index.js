@@ -152,12 +152,6 @@ const store = createStore({
 			},
 			{ 
 				type: 'external', 
-				name: 'Planned Developments', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/65fcbad2b4cb41cd94c5e33caca3232d',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/96cfedf7c4984ee4acbfb497f05cf86a/data' 
-			},
-			{ 
-				type: 'external', 
 				name: 'Planning & Zoning', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/da82c92929e34750a26d95d5f8738cc6',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5a46e385dab4445aa4a0bcf15cae8f3c/data'
@@ -201,15 +195,21 @@ const store = createStore({
 			},
 			{ 
 				type: 'featured', 
-				name: 'Residential Dashboard', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d9cecb6527824cb697e02160d68caf4e/data'   
-			},
-			{ 
-				type: 'featured', 
 				name: 'City Projects Site', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/7ef89fd885e04d8e82d4ff2195a94b94',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c42c56982bf344a38405c3cfc48d8c9e/data'   
+			},
+			{ 
+				type: 'featured', 
+				name: 'Planned Developments', 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/65fcbad2b4cb41cd94c5e33caca3232d',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/96cfedf7c4984ee4acbfb497f05cf86a/data' 
+			},
+			{ 
+				type: 'featured', 
+				name: 'Residential Dashboard', 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d9cecb6527824cb697e02160d68caf4e/data'   
 			},
 			/* Footer Page */
 			{ 
