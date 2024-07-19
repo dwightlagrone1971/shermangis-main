@@ -12,7 +12,7 @@
     >
         <a :href=item.url target=”_blank >
           <img 
-          class="h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" 
+          class="shadow-2xl h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" 
           :src=item.src alt="">
         </a>       
         <h3 class="font-bold mb-10 mt-2" style="color: #4a4a4a">{{ item.name }}</h3>
