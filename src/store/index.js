@@ -355,7 +355,7 @@ const store = createStore({
 			{ 
 				type: 'internal', 
 				name: 'Mowing Map', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=ddab962963934f83bc0639b135562d26', 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/df7265d42f0f442797d421dc7816ae97', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e4cd5a78b1934aa1b386dbccbac66344/data'
 			},
 			{ 
