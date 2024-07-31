@@ -393,7 +393,7 @@ const store = createStore({
 			},
 			{ 
 				type: 'menuItems', 
-				name: 'Maps', 
+				name: 'PDF Maps', 
 				to: '/pdfmaps' 
 			},
 			{ 
