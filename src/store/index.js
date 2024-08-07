@@ -183,7 +183,7 @@ const store = createStore({
 			{ 
 				type: 'external', 
 				name: 'Zoning Districts', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/1e77f1f404ae4ff58043b6c88cdf1fd1',
+				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=1cbf010d010944e5a5c82deb4f72b833',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4fdf4221cc794c64a7470b2e1ea62d71/data'
 			},			
 			/* Featured Page */
