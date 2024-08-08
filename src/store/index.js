@@ -146,6 +146,13 @@ const store = createStore({
 			},
 			{ 
 				type: 'external', 
+				name: 'Grayson Apprasail District', 
+				url: 'https://gis.bisclient.com/graysoncad/',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/269784b4af714265948976b6cbedf570/data' 
+			},
+			{
+		
+				type: 'external', 
 				name: 'Parks & Recreation', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/af44c4110ca24cc28ead1a6feac24a54',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/179f8f73da83415d8a3cebe636476972/data' 
