@@ -164,7 +164,7 @@ const store = createStore({
 			},
 			{ 
 				type: 'external', 
-				name: 'Sherman Schools', 
+				name: 'Sherman Schools (SISD)', 
 				url: 'https://portal.metrostudygis.com/arcgis/apps/webappviewer/index.html?id=f7265613b8f64149bbce677ed9c7befd',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/2882ced8809d426da30c6de4d50aac7a/data' 
 			},
