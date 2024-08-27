@@ -1,6 +1,6 @@
 <template>
   <div app class="m-auto pt-14 pb-8 2xl:h-24" style="background-color: #4a4a4a;">
-    <div class="m-auto grid grid-cols-1 lg:grid-cols-6 lg:w-10/12 2xl:-mt-8 2xl:grid-cols-6 2xl:w-10/12">
+    <div class="m-auto grid grid-cols-1 lg:grid-cols-5 lg:w-10/12 2xl:-mt-8 2xl:grid-cols-4 2xl:w-8/12">
       <div
         v-on:click="scrollToElement"
         v-for="item in items"
