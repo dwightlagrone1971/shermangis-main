@@ -56,25 +56,25 @@ const store = createStore({
 			{ 
 				type: 'downloads', 
 				name: 'Addresses', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/1c8bddf80c784970ad88baac8290dd16_0/about", 
+				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/f909fc649ae743d1bef601b312dbb402_0/explore", 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/682c1a164de44874ac8f04e96477de55/data' 
 			},
 			{ 
 				type: 'downloads', 
 				name: 'Annexations', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/8a158564e0ff4455b90253cb75c971c4_0/about", 
+				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::annexation-boundary/about", 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e50942cc436b413cbbc94dc52300f6fb/data' 
 			},
 			{ 
 				type: 'downloads', 
 				name: 'Building Footprints', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/a776a7f9406940989b3a123b86cadba2_1/about", 
+				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::building-footprints/about", 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8da37022877e4b92a4f8b9944ec07800/data' 
 			},
 			{ 
 				type: 'downloads', 
 				name: 'City Limits & ETJ', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::city-limits-etj-view/about", 
+				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::city-limits-etj/about", 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/267ff0c70cfe4ff0b70d94993a43dbfb/data' 
 			},
 			{ 
@@ -383,11 +383,11 @@ const store = createStore({
 				name: 'Featured Items', 
 				to: '/' 
 			},
-			{ 
-				type: 'menuItems',
-				name: 'GIS Data', 
-				to: '/download' 
-			},
+			// { 
+			// 	type: 'menuItems',
+			// 	name: 'GIS Data', 
+			// 	to: '/download' 
+			// },
 			{ 
 				type: 'menuItems', 
 				name: 'Infographics', 
