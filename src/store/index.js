@@ -277,7 +277,7 @@ const store = createStore({
 			{ 
 				type: 'infographics', 
 				name: 'Community Profile', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/3f8023bb92d94139aed29b5486e76234/data', 
+				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a8de093170a54f3f86aae4b773e22656/data', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d10ebceb90f14c87b6398199b810d264/data' 
 			},
 			{ 
