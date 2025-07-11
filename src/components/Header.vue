@@ -2,10 +2,10 @@
     <div class="w-full h-11/12 ">
       <div class="right-0 z-1 absolute m-auto w-12/12">
         <div class="pt-6 lg:pr-20 text-white relative fixed inset-x-0 top-0">
-          <h1 class="text-2xl">Welcome</h1>
-          <h1 class="text-5xl">Analyze Sherman</h1>
-          <p class="text-2xl">Analyze Sherman is the City of Sherman's open data hub.  We invite</p>
-          <p class="text-2xl"> you to explore our datasets, web maps and other information</p>
+          <h1 class="text-xl">Welcome</h1>
+          <h1 class="text-3xl">Analyze Sherman</h1>
+          <p class="text-xl">Analyze Sherman is the City of Sherman's open data hub.  We invite</p>
+          <p class="text-xl"> you to explore our datasets, web maps and other information</p>
         </div>
       </div>
       <img

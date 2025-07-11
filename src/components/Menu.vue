@@ -1,14 +1,14 @@
 <template>
   <div app class="m-auto" style="background-color: #f8f8f8;">
-    <div class="m-auto grid-cols-1 lg:grid-cols-5 lg:w-10/12 2xl:-mt-8 2xl:grid-cols-5 2xl:w-8/12">
+    <div class="m-auto mt-4 mb-8 grid grid-cols-1 lg:grid-cols-6 lg:w-11/12 2xl:-mt-8 2xl:grid-cols-6 2xl:w-7/12">
       <div
         v-on:click="scrollToElement"
         v-for="item in items"
         :key="item"
-        class="m-auto inline-block border-2 border-gray-300 bg-gray-200 w-48 lg:w-48 2xl:h-16 transition transform p-4 rounded hover:bg-white hover:text-black transition-colors duration-300"
+        class="m-auto mb-4 inline-block border-2 border-gray-300 bg-white w-36 lg:w-48 2xl:h-16 transition transform p-4 rounded hover:bg-gray-200 hover:text-black transition-colors duration-300"
       >
         <router-link :to="item.to">
-          <div class="text-lg 2xl:text-lg">
+          <div class="m-auto text-lg 2xl:text-lg">
             {{ item.name }}
           </div>
         </router-link>

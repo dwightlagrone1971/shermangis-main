@@ -106,7 +106,7 @@ const store = createStore({
 				type: 'external', 
 				name: 'Annexations', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/2848ecc1229d454fa962392967548752',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/bc5e593043d14fc6b2980699d5001ebe/data'
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e50942cc436b413cbbc94dc52300f6fb/data'
 			},
 			{ 
 				type: 'external', 
@@ -117,14 +117,14 @@ const store = createStore({
 			{ 
 				type: 'external', 
 				name: 'Council Districts', 
-				url: 'https://experience.arcgis.com/experience/f2ead96f4ef14f19bf2e23767b65d200',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/951cc7fd96664998934c4373d8bacafd/data'
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/cd464982fa70480189bae064a5901916',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/eb9618ce75314413ad4819f8d3f1b202/data'
 			},
 			{ 
 				type: 'external', 
 				name: 'Development Projects', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/5628948f1c1a464da61cc0bf966badf0',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/b18335e2c35641b389e59ec336a3aca1/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/16158630feed43a69128a160bc0131c4/data' 
 			},
 			{ 
 				type: 'external', 
@@ -142,11 +142,11 @@ const store = createStore({
 				type: 'external', 
 				name: 'Future Landuse', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/f408802be3f04be2a2c699a033a878b3',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/b9587e145a7246c88755c1c54d398f37/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/531ff0b1479c4374881df228ed83e7dc/data' 
 			},
 			{ 
 				type: 'external', 
-				name: 'Grayson Apprasail District', 
+				name: 'Grayson Appraisal District', 
 				url: 'https://gis.bisclient.com/graysoncad/',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/269784b4af714265948976b6cbedf570/data' 
 			},
@@ -161,7 +161,7 @@ const store = createStore({
 				type: 'external', 
 				name: 'Planning & Zoning', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/da82c92929e34750a26d95d5f8738cc6',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5a46e385dab4445aa4a0bcf15cae8f3c/data'
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/ac7639fa550d45df9b796b389a7751f2/data'
 			},
 			{ 
 				type: 'external', 
@@ -173,13 +173,13 @@ const store = createStore({
 				type: 'external', 
 				name: 'Sherman Schools (SISD)', 
 				url: 'https://portal.metrostudygis.com/arcgis/apps/webappviewer/index.html?id=f7265613b8f64149bbce677ed9c7befd',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/2882ced8809d426da30c6de4d50aac7a/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5d9f689b640a4cac92a8972433a0b544/data' 
 			},
 			{ 
 				type: 'external', 
 				name: 'Thoroughfares', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/3b28c17a8cac472ab8ff18b0576cacfe',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d5fc0f0b09524caa95be623e0271680a/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f77f25745f94400e82177fad3d5ac5fc/data' 
 			},
 			{ 
 				type: 'external', 
@@ -191,7 +191,7 @@ const store = createStore({
 				type: 'external', 
 				name: 'Zoning Districts', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=1cbf010d010944e5a5c82deb4f72b833',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4fdf4221cc794c64a7470b2e1ea62d71/data'
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/790f3a30644d4b659bedfcf315df8fd2/data'
 			},			
 			/* Featured Page */
 			{ 
@@ -252,112 +252,106 @@ const store = createStore({
 			/* Infographics Page */                                                           
 			{ 
 				type: 'infographics', 
-				name: '2023 Census Summary', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/efc39b7428244ff1b1af5ac56cc1f7c6/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/9b8f3fe0dd5f46c3a4eea009838410aa/data' 
-			},
-			{ 
-				type: 'infographics', 
 				name: 'At Risk Population', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e0c48bed80c34c78bbb240d02d36f072/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7f04a09589fd43fd9159364ab09c7ee1/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d874cd4e1d0747c29586c0687c57b1bf/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Childhood & Female Equity', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c849568be7e049858268186929f9e95f/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8b5a911fd2f24ee1b8852c61eb307505/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7ae275a27e874646b6660c8ba2e913db/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Community Change Snapshot', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/63a1abdc2c92481ca7f15e69651f6b3a/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d10ebceb90f14c87b6398199b810d264/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/82e75eedd1464ebfb7290d59430bdfd3/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Community Profile', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a8de093170a54f3f86aae4b773e22656/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d10ebceb90f14c87b6398199b810d264/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/3085b197a2fa4df39b36440742de8f8f/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Commute Profile', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f7d1e808f4884e53bbdb066fccd2e0f0/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/3f8023bb92d94139aed29b5486e76234/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/69a2a1b1201a494b988a85fc8a50fde7/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Demography Summary', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7bcb90c26f6646e0bc582972c7ced355/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/9b15264c6a4d4a739381746b0a5fbacd/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/31326c735f244dcdb4a5257fbcf26a45/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Employment Overview', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/03a3ef5669a8432c9e6b9d5250c1e072/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/9b65ea88d2844833b7dee8d0ca00e209/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/22a84af73e524aa286b58afd136ac94c/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Healthcare & Insurance', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/89eba46f3e6d4e9bb6f82239029b8b4e/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a995c356a93940a0a29ffcf702afb9ac/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/48fc3d03ab974b6dac5f1bced4a57b3a/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Key Facts', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/53c27765695d458aa3f316053e730391/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/17246569e0674264b8d7c0851057e4b3/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a1aada4022ec4e3aaffb8e3f2335b554/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Population Trends', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4bc7fe0d4bf24dbe80a7aca1b5b77eb4/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/9fc0c996767f4d29aba858510ba2ac3d/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8a54bee160e94c709947404e1ea75e2f/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Tapestry Profile', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d408af53cef744f8b492fc0516df7a36/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/b060991302eb42469e69ee75c074d705/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d09d9ad9297d41c79d7bbc628aed6c8f/data' 
 			},
 			/* Internal Page */
 			{ 
 				type: 'internal', 
 				name: 'Code Incidents (2024)', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=83d4528b6352402d9ce262c45a07e11a', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/0c2efea649894415befbc80903655849/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6b6acbc0d6ea4ab0aed0c1904b63ca13/data' 
 			},
 			{ 
 				type: 'internal', 
 				name: 'Code Incidents (All)', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=2e9d062f4c6e4cac9ec10024ebc8eb7b', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a84428d43a8e4b40a7876bc30e9ecc3d/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/ce806504650d479ea357396b70e8e1b2/data' 
 			},
 			{ 
 				type: 'internal', 
 				name: 'Code Simple Map', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=97013d9eff694c059406229d9df88b37', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/bbcdd4ed9be941a5afbdbe66e36ad24a/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1b98e0e38dda4d448b29a669a2a7f614/data' 
 			},
 			{ 
 				type: 'internal', 
 				name: 'Detailed Parks Map', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cf482ea52d5740ddb490a36157167b74', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c8cdb5736c714f528f531d26e79a517c/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
 			},
 			{ 
 				type: 'internal', 
 				name: 'Flushing Locations', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cd171035c62b4db98271bafaf78f5758', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a575919d2fc94cb1a5cc70ad267ecdbd/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5ad2c7752fe24741970ea42a860814ae/data' 
 			},
 			{ 
 				type: 'internal', 
 				name: 'Hydrant Maintenance', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/0156ab1a620d49a0b052814da3be563a', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/3bc6980260af45caa27fe92925725e32/data'
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/643a76f0119c4809aafe1965988327e6/data'
 			},
 			{ 
 				type: 'internal', 
@@ -380,14 +374,14 @@ const store = createStore({
 			/* Menu Page */
 			{ 
 				type: 'menuItems', 
-				name: 'Featured Items', 
+				name: 'Featured', 
 				to: '/' 
 			},
-			// { 
-			// 	type: 'menuItems',
-			// 	name: 'GIS Data', 
-			// 	to: '/download' 
-			// },
+			{ 
+				type: 'menuItems', 
+				name: 'Public Maps', 
+				to: '/external' 
+			},
 			{ 
 				type: 'menuItems', 
 				name: 'Infographics', 
@@ -413,61 +407,61 @@ const store = createStore({
 				type: 'pdfMaps', 
 				name: 'City Limits', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/2dab9848f87b489abb3bb1f5fb39616b/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/ab36330e7bf345be87c8c68428138e8f/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c748392cb0124cf98222a26f95daf8b0/data' 
 			},
 			{ 
 				type: 'pdfMaps', 
 				name: 'Control Monuments', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/878a50934b3b4adc85218e46af40f77d/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/fb32de0fdebb4bbb8a1c782ce28448da/data'  
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/0ecc757b3f5f4cbf9d26d264a24443ae/data'  
 			},
 			{ 
 				type: 'pdfMaps', 
 				name: 'Council Districts', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/eb9618ce75314413ad4819f8d3f1b202/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/ef309f38f54242de92515f6fc95c884f/data'  
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/bfacb744117540ad8ed901758a6a17fe/data'  
 			},
 			{ 
 				type: 'pdfMaps', 
 				name: 'Future Landuse', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a432bc22115d4bb48893ab4e65a1cf2b/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/531ff0b1479c4374881df228ed83e7dc/data'  
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/257717d2eba9424aa3df820dc57615f0/data'  
 			},
 			{ 
 				type: 'pdfMaps', 
 				name: 'Hike & Bike Trails', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c580d8564c324c3982e3cd91be7056a3/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1d56a1d17ccc4fc5873231f5dae79623/data'  
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1ee7bb659d0f4e4ea1a3837a715390ab/data'  
 			},
 			{ 
 				type: 'pdfMaps', 
 				name: 'E.T.J.', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/48e428e63b6f451b9b58e1a8c14efe23/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/527fe00ee0514c7ab1e36a5b2bd962bb/data'  
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/b1c890f763aa43ceb2e682fcc44f2283/data'  
 			},
 			{ 
 				type: 'pdfMaps', 
 				name: 'Planned Developments', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cf38bef2ed614d07bd278e806b84ab39/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/16158630feed43a69128a160bc0131c4/data'  
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6831194a3fea4f91b03702b9cbc136e7/data'  
 			},
 			{ 
 				type: 'pdfMaps', 
 				name: 'Sherman Schools', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/098b94114bec4031a3638978be32874e/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5d9f689b640a4cac92a8972433a0b544/data'  
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/60aeaf41c1714393b6fbab4aee3ebd72/data'  
 			},
 			{ 
 				type: 'pdfMaps', 
 				name: 'ThoroughfaresMap', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/2378452606ac4c0f940ec6c4e20e82ec/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f77f25745f94400e82177fad3d5ac5fc/data'  
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/31711687dc6c4aedade6e761797da3e6/data'  
 			},
 			{ 
 				type: 'pdfMaps',
 				 name: 'Zoning Districts', 
 				 url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/84a02175a8fc495ca1314ecaac4394ea/data', 
-				 src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/790f3a30644d4b659bedfcf315df8fd2/data'  
+				 src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/322de32646e24375954bc88f88db2096/data'  
 				},
 		],
 	}),

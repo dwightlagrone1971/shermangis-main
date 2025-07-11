@@ -1,5 +1,5 @@
 <template class="antialiased font-mono" >
-  <div class="app">
+  <div class="app bg-gray-100">
 
       <Header />
       <Menu />
