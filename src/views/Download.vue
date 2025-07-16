@@ -1,16 +1,16 @@
 <template>
-  <h1 class="font-serif m-auto mt-12 mb-12 text-5xl 2xl:mt-18 2xl:mb-20 mb-10 font-bold" style="color: #4a4a4a">GIS Data</h1>
-  <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-4 2xl:gap-10">
+  <h1 class="text-red-900 font-serif m-auto mt-12 mb-12 text-5xl 2xl:mt-18 2xl:mb-20 mb-10 font-bold">GIS Data</h1>
+  <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-5 2xl:gap-10">
     <div
        v-for="item in items"
         :key="item"
     >
         <a :href=item.url target=”_blank >
           <img 
-          class="shadow-2xl h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" 
+          class="border-4 border-white shadow-2xl h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" 
           :src=item.src alt="">
         </a>       
-        <h3 class="font-bold mb-10 mt-2" style="color: #4a4a4a">{{ item.name }}</h3>
+        <h3 class="text-red-900 font-bold mb-10 mt-2">{{ item.name }}</h3>
       </div>
   </div>
 </template>

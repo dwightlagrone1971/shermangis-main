@@ -3,7 +3,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import About from '../views/About.vue'
 import Contacts from '../views/Contacts.vue'
 import External from '../views/External.vue'
-import Featured from '../views/Featured.vue'
+import Home from '../views/Home.vue'
 import Download from '../views/Download.vue'
 import Infographics from '../views/Infographics.vue'
 import Internal from '../views/Internal.vue'
@@ -14,8 +14,8 @@ import WhatIsGPS from '../views/WhatIsGPS.vue'
 const routes = [
   {
     path: '/',
-    name: 'Featured',
-    component: Featured
+    name: 'Home',
+    component: Home
   },
   {
     path: '/about',
@@ -28,12 +28,12 @@ const routes = [
     component: Contacts
   },
   {
-    path: '/external',
+    path: '/externals',
     name: 'External',
     component: External
   },
   {
-    path: '/download',
+    path: '/downloads',
     name: 'Download',
     component: Download
   },

@@ -56,50 +56,98 @@ const store = createStore({
 			{ 
 				type: 'downloads', 
 				name: 'Addresses', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/f909fc649ae743d1bef601b312dbb402_0/explore", 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/682c1a164de44874ac8f04e96477de55/data' 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/f909fc649ae743d1bef601b312dbb402_4/explore?location=33.616807%2C-96.619061%2C11.64", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/578a14c48acf4e2180ef9da620bce3de/data' 
 			},
 			{ 
 				type: 'downloads', 
 				name: 'Annexations', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::annexation-boundary/about", 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e50942cc436b413cbbc94dc52300f6fb/data' 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/6e78e7f6bd0848e69b25933eb1e00b30_0/explore?location=33.619177%2C-96.633220%2C11.94", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/74ba8fecf1b84bd8b1e620a10e24b5a7/data' 
 			},
 			{ 
 				type: 'downloads', 
 				name: 'Building Footprints', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::building-footprints/about", 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8da37022877e4b92a4f8b9944ec07800/data' 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/f93cbef937cf4699b07cc1d1cba8ff2e_1/explore?location=33.563302%2C-96.632317%2C11.28", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5cd58e81f3b8426a9cc73a5a4a8565cd/data' 
 			},
 			{ 
 				type: 'downloads', 
 				name: 'City Limits & ETJ', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::city-limits-etj/about", 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/267ff0c70cfe4ff0b70d94993a43dbfb/data' 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/366f7cc2fc1643f0b2b95547114f5e52_0/explore?location=33.391420%2C-96.664945%2C9.35", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/081ce62d38384951913b999ee19100e8/data' 
 			},
 			{ 
 				type: 'downloads', 
-				name: 'Contours', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::contours-2ft-2022/about", 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/895bc2059eb6478da0bb8c03d54f5113/data' 
+				name: 'Control Monuments',
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/33f8223fb4164f3699e89e8a249410dc_9/explore?location=0.001696%2C-96.619955%2C0.00", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/3ff037997655469bb544e8e2bf3e3376/data' 
+			},
+			{ 
+				type: 'downloads', 
+				name: 'Council Districts', 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/2f5e02cf74b04e98b3eff4048663447b_10/explore?location=33.619177%2C-96.633228%2C11.94", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/74da76b159304654a471e8f765713254/data' 
+			},
+			{ 
+				type: 'downloads', 
+				name: 'Development Projects', 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/557fa5e6ca5b4eebba1e185c3f6e5bef/explore?location=33.622567%2C-96.616768%2C12.11", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/fbbb9af29bf54d799b59799f4407774b/data' 
+			},
+			{ 
+				type: 'downloads', 
+				name: 'Future Landuse', 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/864ba455145b4db493872497a8d645a7_18/explore?location=33.620037%2C-96.633152%2C11.88", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/2ebc81f25d2940bcaf06e0a659ae9fa4/data' 
 			},
 			{ 
 				type: 'downloads', 
 				name: 'Parcels', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::parcels-view/about", 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c971adb636874066bed53b8735433d25/data' 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/9f7b57fe77dd4c8d8b9de4e6917c57d2_19/explore?location=0.001695%2C-96.633224%2C0.00", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e8cdaa8990e64289873bbe4dadee3007/data' 
 			},
 			{ 
 				type: 'downloads', 
-				name: 'Road Centerlines', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/6062350306cf4e41ae2b1e2aa6de0f83_2/about", 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/de63e3796f85415eb8291f8bc95797dd/data' 
+				name: 'Parks & Recreation', 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/0d896e8dd1bf49ff9e6f2b94ef34c1d6_24/explore?location=33.643646%2C-96.621673%2C13.15", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c1c6bd0ffcef4c0f9dd1ec011b98f8aa/data' 
+			},
+			{ 
+				type: 'downloads', 
+				name: 'Planned Developments', 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/f702eafd15d444bc856bddb7c51221e0_19/explore?location=33.619679%2C-96.631264%2C11.50", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6be18d2c4a814d0583ff249ce2982e48/data' 
+			},
+			{ 
+				type: 'downloads', 
+				name: 'Roads Centerlines', 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/3ef48cf3f2384dbb9938c2ea34cc519d_2/explore?location=33.547992%2C-96.573677%2C10.92", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/58c5c062a33c4bf8bf8f27ffe675077b/data' 
+			},
+			{ 
+				type: 'downloads', 
+				name: 'Thoroughfares', 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/aaff07c9524445ea958ec57b0431ac96_69/explore?location=33.609510%2C-96.633352%2C11.82", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/b34f574a643e43048a7b53809e938b2b/data' 
+			},
+			{ 
+				type: 'downloads', 
+				name: 'Traffic Counts', 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/bc592fd6fadf4dbaa12c21c0a983deb0_0/explore?location=33.629473%2C-96.612578%2C12.42", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/aa909e100e814fd9bc5d5fe1c2c391d7/data' 
+			},
+			{ 
+				type: 'downloads', 
+				name: 'Zip Codes', 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/5cc8e7043e6e49af80808385c2f27dbd_43/explore?location=30.382542%2C-100.127720%2C6.00", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/20762c5c64d64324bad877ef92c436c1/data' 
 			},
 			{ 
 				type: 'downloads', 
 				name: 'Zoning Districts', 
-				url: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::zoning-districts-view/about", 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4fdf4221cc794c64a7470b2e1ea62d71/data' 
+				url: "https://sherman-open-data-cityofsherman.hub.arcgis.com/datasets/410884a5a05249c3894290e57bf9562f_2/explore?location=0.001695%2C-96.633228%2C0.00", 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7cbf38b7ed244639b0d0a28bdad76eb9/data' 
 			},
             /* External Page */
 			{ 
@@ -366,21 +414,26 @@ const store = createStore({
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8f1c813391004107a02eb625241c99c0/data',
 			},
 			{ 
-				type: 'internal', 
-				name: 'UB Accounts', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8f1c813391004107a02eb625241c99c0/data'
+				// type: 'internal', 
+				// name: 'UB Accounts', 
+				// url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c', 
+				// src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8f1c813391004107a02eb625241c99c0/data'
 			},
 			/* Menu Page */
 			{ 
 				type: 'menuItems', 
-				name: 'Featured', 
+				name: 'Home', 
 				to: '/' 
 			},
 			{ 
 				type: 'menuItems', 
+				name: 'Downloads', 
+				to: '/downloads' 
+			},
+			{ 
+				type: 'menuItems', 
 				name: 'Public Maps', 
-				to: '/external' 
+				to: '/externals' 
 			},
 			{ 
 				type: 'menuItems', 
@@ -417,12 +470,6 @@ const store = createStore({
 			},
 			{ 
 				type: 'pdfMaps', 
-				name: 'Council Districts', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/eb9618ce75314413ad4819f8d3f1b202/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/bfacb744117540ad8ed901758a6a17fe/data'  
-			},
-			{ 
-				type: 'pdfMaps', 
 				name: 'Future Landuse', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a432bc22115d4bb48893ab4e65a1cf2b/data', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/257717d2eba9424aa3df820dc57615f0/data'  
@@ -453,7 +500,7 @@ const store = createStore({
 			},
 			{ 
 				type: 'pdfMaps', 
-				name: 'ThoroughfaresMap', 
+				name: 'Thoroughfares Map', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/2378452606ac4c0f940ec6c4e20e82ec/data', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/31711687dc6c4aedade6e761797da3e6/data'  
 			},

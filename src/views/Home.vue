@@ -10,77 +10,54 @@
           <h1 class="text-red-900 font-freight-sans-pro helvetica mb-1 text-3xl 2xl:mt-18 2xl:mb-1 font-bold italic">Public-Facing GIS "Featured" Applications</h1>
           <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8">The following is a list of public-facing GIS applications that the City of Sherman currently provides.</h1>
         </div>
-        <!-- <div class="m-auto my-10">
-          <a href="https://experience.arcgis.com/experience/5dd7806c06eb43c998f818ec14b70a96?draft=true" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">ShermanMap</a>        
-            <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
-            href="mailto: dwightl@cityofsherman.com"
-            class="text-xl font-semibold underline text-red-900"
-            target="_blank"
-            >Dwight LaGrone
-          </a>
-          </span><br>ShermanMap is the City of Sherman’s web map application for the public. This interactive tool provides a wealth of information at your fingertips, including data on individual properties, land-use designation, and more.</h1>
-        </div> -->
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/c984e25f1f824e3ea31564ae1477a89e" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Downtown Parking</a>        
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/c984e25f1f824e3ea31564ae1477a89e" target="_blank" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Downtown Parking</a>        
             <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
-            href="mailto: dwightl@cityofsherman.com"
+            href="mailto: NateS@cityofsherman.com"
             class="text-xl font-semibold underline text-red-900"
             target="_blank"
-            >Dwight LaGrone
+            >Nate Strauch
           </a>
           </span><br><span class="italic font-semibold">On-Street Parking</span> - 
 All street parking and along cross streets is available unless otherwise marked for special events.<br><span class="italic font-semibold">Off-Street Parking</span> - 
 Downtown Denison has a combination of public and private parking lots. Look for lots that have 'Free Public Parking' signs near their entrance.</h1>
         </div>
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Garbage Collection Map</a>        
+          <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c" target="_blank" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Garbage Collection Map</a>        
             <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
-            href="mailto: dwightl@cityofsherman.com"
+            href="mailto: jimmym@cityofsherman.com"
             class="text-xl font-semibold underline text-red-900"
             target="_blank"
-            >Dwight LaGrone
+            >Jimmy Mrozinski
           </a>
           </span><br>The Garbage Collection Map allows the public to see whether or not they receive garbage collection service from the City and on what day pick-up occurs. Links to service provider phone numbers and garbage cart ordering information is provided.</h1>
         </div>        
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/7ef89fd885e04d8e82d4ff2195a94b94" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">City Projects</a>        
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/7ef89fd885e04d8e82d4ff2195a94b94" target="_blank" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">City Projects</a>        
             <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
-            href="mailto: dwightl@cityofsherman.com"
+            href="mailto: Planning@cityofsherman.com"
             class="text-xl font-semibold underline text-red-900"
             target="_blank"
-            >Dwight LaGrone
+            >Panning Department
           </a>
           </span><br>The City Projects site contains information for Capital Improvement Projects, Development Projects, and Planning & Zoning in one application.</h1>
         </div>
         <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/65fcbad2b4cb41cd94c5e33caca3232d" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Planned Developments</a>        
+          <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/65fcbad2b4cb41cd94c5e33caca3232d" target="_blank" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Planned Developments</a>        
             <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
-            href="mailto: dwightl@cityofsherman.com"
+            href="mailto: Planning@cityofsherman.com"
             class="text-xl font-semibold underline text-red-900"
             target="_blank"
-            >Dwight LaGrone
+            >Development Services
           </a>
           </span><br>The Planned Development Map allows users to see locations and data about new development in the City of Sherman.</h1>
-        </div>
-        <!-- <div class="m-auto my-10">
-          <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Residential Dashboard</a>        
-            <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
-            href="mailto: dwightl@cityofsherman.com"
-            class="text-xl font-semibold underline text-red-900"
-            target="_blank"
-            >Dwight LaGrone
-          </a>
-          </span><br>The Residential Dashboard allows users to enter their address and see information about their Representative, Trash and Garbage Days, Zip Code, Sex Offender Restricted Living Zones, etc.</h1>
-        </div>        -->
+        </div>        
       </div>
       <div class="m-auto w-1/2 mt-14 md:mt-6 md:w-1/4">
           <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
-            <h1 class="m-auto align-top text-2xl p-4">Want to see the data?</h1>
+            <h1 class="m-auto align-top text-2xl p-4">Want to download GIS data?</h1>
             <h1 class="p-4">Find the datasets powering our GIS maps by vising our open data portal.</h1>
-            <a href="https://sherman-open-data-cityofsherman.hub.arcgis.com/pages/gis-data" target="_blank">
-              <button class="text-white bg-red-800 hover:bg-red-900 p-2 mx-8 rounded-md">
-                VIEW THE DATA
-              </button></a>
+            <router-link class="text-white bg-red-800 hover:bg-red-900 p-2 mx-4 rounded-md" to="/downloads" tag="button">VIEW THE DATASETS</router-link>
           </div>
         <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
           <h1 class="m-auto align-top text-2xl pb-4 pl-4 pr-4">Your Place</h1>
