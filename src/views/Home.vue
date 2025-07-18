@@ -67,7 +67,7 @@ Downtown Denison has a combination of public and private parking lots. Look for 
         <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
           <h1 class="m-auto align-top text-2xl p-4">More Public Maps</h1>
           <h1 class="p-4">Find more public maps in our open data portal.</h1>
-          <router-link class="text-white bg-red-800 hover:bg-red-900 p-2 mx-4 rounded-md" to="/externals" tag="button">VIEW Maps</router-link>
+          <router-link class="text-white bg-red-800 hover:bg-red-900 p-2 mx-4 rounded-md" to="/externals" tag="button">MORE MAPS</router-link>
         </div>
       </div>
     </div>
