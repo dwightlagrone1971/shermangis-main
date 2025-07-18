@@ -54,17 +54,22 @@ Downtown Denison has a combination of public and private parking lots. Look for 
         </div>        
       </div>
       <div class="m-auto w-1/2 mt-14 md:mt-6 md:w-1/4">
-          <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
-            <h1 class="m-auto align-top text-2xl p-4">Want to download GIS data?</h1>
-            <h1 class="p-4">Find the datasets powering our GIS maps by vising our open data portal.</h1>
-            <router-link class="text-white bg-red-800 hover:bg-red-900 p-2 mx-4 rounded-md" to="/downloads" tag="button">VIEW THE DATASETS</router-link>
-          </div>
+        <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
+          <h1 class="m-auto align-top text-2xl p-4">Want to download GIS data?</h1>
+          <h1 class="p-4">Find the datasets powering our GIS maps by vising our open data portal.</h1>
+          <router-link class="text-white bg-red-800 hover:bg-red-900 p-2 mx-4 rounded-md" to="/downloads" tag="button">VIEW THE DATASETS</router-link>
+        </div>
         <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
           <h1 class="m-auto align-top text-2xl pb-4 pl-4 pr-4">Your Place</h1>
           <h1 class="pl-4 pr-4">Your Place provides a property information report that includes zoning information, polling place locations, police beats, legislative districts and much mor</h1>
           <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626" target="_blank"><button class="text-white bg-red-800 hover:bg-red-900 p-2 mt-10 mx-2 rounded-md">VISIT "YOUR PLACE" NOW</button></a>
         </div>
+        <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
+          <h1 class="m-auto align-top text-2xl p-4">More Public Maps</h1>
+          <h1 class="p-4">Find more public maps in our open data portal.</h1>
+          <router-link class="text-white bg-red-800 hover:bg-red-900 p-2 mx-4 rounded-md" to="/externals" tag="button">VIEW Maps</router-link>
         </div>
+      </div>
     </div>
   </div> 
 </template>
