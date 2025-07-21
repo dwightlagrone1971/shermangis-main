@@ -9,7 +9,7 @@
           <img 
           class="w-48 h-36 shadow-2xl h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" 
           :src=item.src alt="">
-        </a>       
+        </a>      
         <h3 class="text-red-900 font-bold mb-10 mt-2">{{ item.name }}</h3>
       </div>
   </div>

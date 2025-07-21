@@ -5,7 +5,7 @@
         v-on:click="scrollToElement"
         v-for="item in items"
         :key="item"
-        class="m-auto mb-4 inline-block border-2 border-gray-300 bg-white w-36 lg:w-42 2xl:h-16 transition transform p-4 rounded hover:bg-gray-200 hover:text-black transition-colors duration-300"
+        class="m-auto mb-4 roundedinline-block border-2 border-gray-300 bg-white w-36 lg:w-42 2xl:h-16 transition transform p-4 rounded hover:bg-gray-200 hover:text-black transition-colors duration-300"
       >
         <router-link :to="item.to">
           <div class=" m-auto text-lg 2xl:text-base">

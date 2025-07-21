@@ -3,7 +3,7 @@
 
       <Header />
       <Menu />
-      <router-view class="border-2" />
+      <router-view />
       <Footer class="footer" />
 
   </div>
