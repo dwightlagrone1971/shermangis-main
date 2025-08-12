@@ -302,7 +302,7 @@ const store = createStore({
 				type: 'infographics', 
 				name: 'At Risk Population', 
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e0c48bed80c34c78bbb240d02d36f072/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d874cd4e1d0747c29586c0687c57b1bf/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/00c1786cbf47479784287b241970b3e0/data' 
 			},
 			{ 
 				type: 'infographics', 

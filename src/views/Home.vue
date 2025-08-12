@@ -35,10 +35,10 @@ Downtown Denison has a combination of public and private parking lots. Look for 
         <div class="m-auto my-10">
           <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/7ef89fd885e04d8e82d4ff2195a94b94" target="_blank" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">City Projects</a>        
             <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
-            href="mailto: Planning@cityofsherman.com"
+            href="mailto: NateS@cityofsherman.com"
             class="text-xl font-semibold underline text-red-900"
             target="_blank"
-            >Panning Department
+            >Nate Strauch
           </a>
           </span><br>The City Projects site contains information for Capital Improvement Projects, Development Projects, and Planning & Zoning in one application.</h1>
         </div>
