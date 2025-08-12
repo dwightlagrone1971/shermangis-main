@@ -301,68 +301,62 @@ const store = createStore({
 			{ 
 				type: 'infographics', 
 				name: 'At Risk Population', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e0c48bed80c34c78bbb240d02d36f072/data', 
+				url: 'https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/e0c48bed80c34c78bbb240d02d36f072/explore', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/00c1786cbf47479784287b241970b3e0/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Childhood & Female Equity', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c849568be7e049858268186929f9e95f/data', 
+				url: 'https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/e0c48bed80c34c78bbb240d02d36f072/explore', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7ae275a27e874646b6660c8ba2e913db/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Community Change Snapshot', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/63a1abdc2c92481ca7f15e69651f6b3a/data', 
+				url: 'https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/63a1abdc2c92481ca7f15e69651f6b3a/explore', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/82e75eedd1464ebfb7290d59430bdfd3/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Community Profile', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a8de093170a54f3f86aae4b773e22656/data', 
+				url: 'https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/f7d1e808f4884e53bbdb066fccd2e0f0/explore', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/3085b197a2fa4df39b36440742de8f8f/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Commute Profile', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f7d1e808f4884e53bbdb066fccd2e0f0/data', 
+				url: 'https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/f7d1e808f4884e53bbdb066fccd2e0f0/explore', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/69a2a1b1201a494b988a85fc8a50fde7/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Demography Summary', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7bcb90c26f6646e0bc582972c7ced355/data', 
+				url: 'https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/7bcb90c26f6646e0bc582972c7ced355/explore', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/31326c735f244dcdb4a5257fbcf26a45/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Employment Overview', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/03a3ef5669a8432c9e6b9d5250c1e072/data', 
+				url: 'https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/03a3ef5669a8432c9e6b9d5250c1e072/explore', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/22a84af73e524aa286b58afd136ac94c/data' 
 			},
 			{ 
 				type: 'infographics', 
-				name: 'Healthcare & Insurance', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/89eba46f3e6d4e9bb6f82239029b8b4e/data', 
+				name: 'Healthcare Statistics', 
+				url: 'https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/89eba46f3e6d4e9bb6f82239029b8b4e/explore', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/48fc3d03ab974b6dac5f1bced4a57b3a/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Key Facts', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/53c27765695d458aa3f316053e730391/data', 
+				url: 'https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/53c27765695d458aa3f316053e730391/explore', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a1aada4022ec4e3aaffb8e3f2335b554/data' 
 			},
 			{ 
 				type: 'infographics', 
 				name: 'Population Trends', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4bc7fe0d4bf24dbe80a7aca1b5b77eb4/data', 
+				url: 'https://sherman-open-data-cityofsherman.hub.arcgis.com/documents/4bc7fe0d4bf24dbe80a7aca1b5b77eb4/explore', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8a54bee160e94c709947404e1ea75e2f/data' 
-			},
-			{ 
-				type: 'infographics', 
-				name: 'Tapestry Profile', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d408af53cef744f8b492fc0516df7a36/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d09d9ad9297d41c79d7bbc628aed6c8f/data' 
 			},
 			/* Internal Page */
 			{ 
