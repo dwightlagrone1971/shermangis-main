@@ -6,17 +6,18 @@
  Survey (ACS), Census, Esri forecasts, and third-party retail data.</p>
     </div>
  <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-5 2xl:gap-10">
-    <div
-       v-for="item in items"
+    <button
+      v-for="item in items"
+        v-on:click="openPdf"
         :key="item"
     >
-        <a :href=item.url target=”_blank >
+        <a :href=item.url target= "_blank">
           <img 
           class="shadow-2xl h-auto transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" 
           :src=item.src alt="">
         </a>       
         <h3 class="font-bold mb-10 mt-2 text-red-900">{{ item.name }}</h3>
-      </div>
+    </button>
   </div>
 </template>
 
@@ -28,10 +29,11 @@ export default {
   setup() {
     const store = useStore();
     const items = computed(() => store.getters.getItems('infographics'))
+    
 
 
     return { items, store }
-  }
+  },
 }
 
 
