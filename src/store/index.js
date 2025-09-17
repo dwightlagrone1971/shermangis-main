@@ -359,28 +359,34 @@ const store = createStore({
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8a54bee160e94c709947404e1ea75e2f/data' 
 			},
 			/* Internal Page */
+			// { 
+			// 	type: 'internal', 
+			// 	name: 'Code Incidents (2024)', 
+			// 	url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=83d4528b6352402d9ce262c45a07e11a', 
+			// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6b6acbc0d6ea4ab0aed0c1904b63ca13/data' 
+			// },
+			// { 
+			// 	type: 'internal', 
+			// 	name: 'Code Incidents (All)', 
+			// 	url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=2e9d062f4c6e4cac9ec10024ebc8eb7b', 
+			// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/ce806504650d479ea357396b70e8e1b2/data' 
+			// },
+			// { 
+			// 	type: 'internal', 
+			// 	name: 'Code Simple Map', 
+			// 	url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=97013d9eff694c059406229d9df88b37', 
+			// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1b98e0e38dda4d448b29a669a2a7f614/data' 
+			// },
+			// { 
+			// 	type: 'internal', 
+			// 	name: 'Detailed Parks Map', 
+			// 	url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cf482ea52d5740ddb490a36157167b74', 
+			// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
+			// },
 			{ 
 				type: 'internal', 
-				name: 'Code Incidents (2024)', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=83d4528b6352402d9ce262c45a07e11a', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6b6acbc0d6ea4ab0aed0c1904b63ca13/data' 
-			},
-			{ 
-				type: 'internal', 
-				name: 'Code Incidents (All)', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=2e9d062f4c6e4cac9ec10024ebc8eb7b', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/ce806504650d479ea357396b70e8e1b2/data' 
-			},
-			{ 
-				type: 'internal', 
-				name: 'Code Simple Map', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=97013d9eff694c059406229d9df88b37', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1b98e0e38dda4d448b29a669a2a7f614/data' 
-			},
-			{ 
-				type: 'internal', 
-				name: 'Detailed Parks Map', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cf482ea52d5740ddb490a36157167b74', 
+				name: 'Ambulance Calls', 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/9a005e56e03e46aca282179adac59671', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
 			},
 			{ 
@@ -395,12 +401,12 @@ const store = createStore({
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/0156ab1a620d49a0b052814da3be563a', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/643a76f0119c4809aafe1965988327e6/data'
 			},
-			{ 
-				type: 'internal', 
-				name: 'Mowing Map', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/df7265d42f0f442797d421dc7816ae97', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e4cd5a78b1934aa1b386dbccbac66344/data'
-			},
+			// { 
+			// 	type: 'internal', 
+			// 	name: 'Mowing Map', 
+			// 	url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/df7265d42f0f442797d421dc7816ae97', 
+			// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e4cd5a78b1934aa1b386dbccbac66344/data'
+			// },
 			{ 
 				type: 'internal', 
 				name: 'Storm Water Fees', 
