@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="h-screen">
     <h1 class="text-red-900 font-serif m-auto mt-12 mb-12 text-5xl 2xl:mt-18 2xl:mb-20 mb-10 font-bold">Internal Maps</h1>
     <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-5 2xl:gap-10">
       <div
