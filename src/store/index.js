@@ -377,12 +377,12 @@ const store = createStore({
 			// 	url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=97013d9eff694c059406229d9df88b37', 
 			// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1b98e0e38dda4d448b29a669a2a7f614/data' 
 			// },
-			// { 
-			// 	type: 'internal', 
-			// 	name: 'Detailed Parks Map', 
-			// 	url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cf482ea52d5740ddb490a36157167b74', 
-			// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
-			// },
+			{ 
+				type: 'internal', 
+				name: 'Detailed Parks Map', 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/f575843e8b1140e0ac69149ca266dc5f', 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
+			},
 			{ 
 				type: 'internal', 
 				name: 'Ambulance Calls', 
