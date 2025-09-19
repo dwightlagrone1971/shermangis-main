@@ -379,7 +379,7 @@ const store = createStore({
 			// },
 			{ 
 				type: 'internal', 
-				name: 'Detailed Parks Map', 
+				name: 'Address Map', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/f575843e8b1140e0ac69149ca266dc5f', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
 			},
