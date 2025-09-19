@@ -389,12 +389,12 @@ const store = createStore({
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/9a005e56e03e46aca282179adac59671', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
 			},
-			{ 
-				type: 'internal', 
-				name: 'Flushing Locations', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cd171035c62b4db98271bafaf78f5758', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5ad2c7752fe24741970ea42a860814ae/data' 
-			},
+			// { 
+			// 	type: 'internal', 
+			// 	name: 'Flushing Locations', 
+			// 	url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cd171035c62b4db98271bafaf78f5758', 
+			// 	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5ad2c7752fe24741970ea42a860814ae/data' 
+			// },
 			{ 
 				type: 'internal', 
 				name: 'Hydrant Maintenance', 
