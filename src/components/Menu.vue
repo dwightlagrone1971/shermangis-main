@@ -1,6 +1,6 @@
 <template>
   <div app class="flex items-center justify-center h-24 m-auto border-2 border-gray-300 bg-gray-200 font-poppins">
-    <div class="h-20 m-auto mt-4 grid grid-cols-1 lg:grid-cols-7 lg:w-7/12 2xl:-mt-8 2xl:grid-cols-7 2xl:w-7/12">
+    <div class="h-20 m-auto mt-4 grid grid-cols-1 lg:grid-cols-7 lg:w-8/12 2xl:-mt-8 2xl:grid-cols-7 2xl:w-6/12">
       <div
         v-on:click="scrollToElement"
         v-for="item in items"
