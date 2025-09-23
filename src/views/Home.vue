@@ -1,5 +1,5 @@
 <template>
-  <div class=" w-screen font-freight-sans-pro helvetica serif bg-gray-100">
+  <div class=" w-screen font-freight-sans-pro helvetica serif">
     <div class="m-auto md:top-3 md:w-1/2 md:flex">
       <div class="m-auto w-3/4">
         <div class="m-auto my-10">
