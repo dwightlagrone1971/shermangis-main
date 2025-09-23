@@ -12,8 +12,8 @@
 
 
 <script>
-import Header from "./components/Header.vue";
-import Menu from "./components/Menu.vue";
+import Header from "./components/Header1.vue";
+import Menu from "./components/Menu1.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
