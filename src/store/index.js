@@ -448,7 +448,7 @@ const store = createStore({
 				type: 'menuItems', 
 				name: 'Internal Maps', 
 				to: '/internal',
-				icon: 'IN'
+				icon: 'I'
 			},
 			{ 
 				type: 'menuItems', 
