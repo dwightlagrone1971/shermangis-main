@@ -1,11 +1,12 @@
 <template>
-  <div class="text-red-900 -bottom-11font-serif m-auto w-10/12 my-10 lg:w-9/12 2xl:w-6/12">
-    <p class="text-red-900 font-serif m-auto mb-6 2xl:py-10 text-xl font-bold">
-      <span class="text-5xl text-red-900">Infographics</span>are a visual representation of information
+  <div class="bg-white border-2 border-gray-100">
+    <div class="text-red-900 -bottom-11font-serif m-auto w-10/12 my-10 lg:w-9/12 2xl:w-6/12">
+      <p class="text-red-900 font-serif m-auto mb-6 2xl:py-10 text-xl font-bold">
+        <span class="text-5xl text-red-900">Infographics </span>are a visual representation of information
  or data. The infographics below use American Community
  Survey (ACS), Census, Esri forecasts, and third-party retail data.</p>
-    </div>
- <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-5 2xl:gap-10">
+      </div>
+  <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-5 2xl:gap-10">
     <button
       v-for="item in items"
         v-on:click="openPdf"
@@ -18,6 +19,7 @@
         </a>       
         <h3 class="font-bold mb-10 mt-2 text-red-900">{{ item.name }}</h3>
     </button>
+    </div>
   </div>
 </template>
 

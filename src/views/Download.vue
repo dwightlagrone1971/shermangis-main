@@ -1,7 +1,8 @@
 <template>
-  <h1 class="text-red-900 font-serif m-auto mt-12 mb-12 text-5xl 2xl:mt-18 2xl:mb-20 mb-10 font-bold">GIS Data</h1>
-  <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-5 2xl:gap-10">
-    <div
+  <div class="bg-white border-gray-100 border-2">
+    <h1 class="text-red-900 font-serif m-auto mt-12 mb-12 text-5xl 2xl:mt-18 2xl:mb-20 mb-10 font-bold">GIS Data</h1>
+    <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-5 2xl:gap-10">
+      <div
        v-for="item in items"
         :key="item"
     >
@@ -12,6 +13,7 @@
         </a>       
         <h3 class="text-red-900 font-bold mb-10 mt-2">{{ item.name }}</h3>
       </div>
+    </div>
   </div>
 </template>
 

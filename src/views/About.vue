@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen">
+  <div class="h-screen bg-white border-2 border-gray-100">
     <h1 class="text-red-900 font-serif text-5xl mt-12 mb-12 font-bold 2xl:mt-24 2xl:mb-20">About Page</h1>
     <div class="text-red-900 m-auto grid grid-cols-1 lg:grid-cols-3 lg:w-8/12 2xl:w-6/12">
       <div
