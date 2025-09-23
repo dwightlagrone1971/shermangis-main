@@ -430,7 +430,8 @@ const store = createStore({
 				type: 'menuItems', 
 				name: 'Downloads', 
 				to: '/downloads',
-				icon: 'D
+				icon: 'D'
+			},
 			{ 
 				type: 'menuItems', 
 				name: 'Public Maps', 
