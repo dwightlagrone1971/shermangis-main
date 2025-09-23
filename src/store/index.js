@@ -424,43 +424,43 @@ const store = createStore({
 				type: 'menuItems', 
 				name: 'Home', 
 				to: '/',
-				icon: 'dist/assets/home.png'
+				icon: 'H'
 			},
 			{
 				type: 'menuItems', 
 				name: 'Downloads', 
 				to: '/downloads',
-				icon: 'dist/assets/downloads.png'
+				icon: 'D'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'Public Maps', 
 				to: '/externals',
-				icon: 'dist/assets/external.png'
+				icon: 'E'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'Infographics', 
 				to: '/infographics',
-				icon: 'dist/assets/infographics.png'
+				icon: 'I'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'Internal Maps', 
 				to: '/internal',
-				icon: 'dist/assets/internal.png'
+				icon: 'IN'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'PDF Maps', 
 				to: '/pdfmaps',
-				icon: 'dist/assets/pdf.png'
+				icon: 'P'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'About Page', 
 				to: '/about',
-				icon: 'dist/assets/about.png'
+				icon: 'A'
 			},			
 			/* PDF Maps Page */
 			{ 
