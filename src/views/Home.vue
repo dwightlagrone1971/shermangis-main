@@ -53,7 +53,7 @@ Downtown Denison has a combination of public and private parking lots. Look for 
           </span><br>The Planned Development Map allows users to see locations and data about new development in the City of Sherman.</h1>
         </div>        
       </div>
-      <div class="m-auto w-1/2 mt-14 md:mt-6 md:w-1/4">
+      <div class="m-auto w-1/2 mt-14 md:mt-12 md:w-1/4">
         <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
           <h1 class="m-auto align-top text-2xl p-4">Want to download GIS data?</h1>
           <h1 class="p-4">Find the datasets powering our GIS maps by vising our open data portal.</h1>
