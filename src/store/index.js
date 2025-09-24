@@ -424,43 +424,43 @@ const store = createStore({
 				type: 'menuItems', 
 				name: 'Home', 
 				to: '/',
-				icon: '../dist/assets/home.png'
+				icon: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cf806844422640c1887a9df6c1863007/data'
 			},
 			{
 				type: 'menuItems', 
 				name: 'Downloads', 
 				to: '/downloads',
-				icon: '../dist/assets/downloads.png'
+				icon: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/b49983147c0d43a891faac9317c7a1c9/data'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'Public Maps', 
 				to: '/externals',
-				icon: '../dist/assets/external.png'
+				icon: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/51f24d655b0845eea71d9e116afdba26/data'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'Infographics', 
 				to: '/infographics',
-				icon: '../dist/assets/infographics.png'
+				icon: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/480933bbc9124c1485e04b650071d880/data'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'Internal Maps', 
 				to: '/internal',
-				icon: '../dist/assets/internal.png'
+				icon: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/acbd7370b8fe4b57b069519360161f4f/data'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'PDF Maps', 
 				to: '/pdfmaps',
-				icon: '../dist/assets/pdf.png'
+				icon: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/389b4dd8447c4d3fa911907f593a2f33/data'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'About Page', 
 				to: '/about',
-				icon: '../dist/assets/about.png'
+				icon: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d03725b6652f40fc9c18a46160369f1f/data'
 			},			
 			/* PDF Maps Page */
 			{ 
