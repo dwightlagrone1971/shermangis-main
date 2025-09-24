@@ -424,43 +424,43 @@ const store = createStore({
 				type: 'menuItems', 
 				name: 'Home', 
 				to: '/',
-				icon: '../public/home.png'
+				icon: '../dist/assets/home.png'
 			},
 			{
 				type: 'menuItems', 
 				name: 'Downloads', 
 				to: '/downloads',
-				icon: '../public/downloads.png'
+				icon: '../dist/assets/downloads.png'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'Public Maps', 
 				to: '/externals',
-				icon: '../public/external.png'
+				icon: '../dist/assets/external.png'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'Infographics', 
 				to: '/infographics',
-				icon: '../public/infographics.png'
+				icon: '../dist/assets/infographics.png'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'Internal Maps', 
 				to: '/internal',
-				icon: '../public/internal.png'
+				icon: '../dist/assets/internal.png'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'PDF Maps', 
 				to: '/pdfmaps',
-				icon: '../public/pdf.png'
+				icon: '../dist/assets/pdf.png'
 			},
 			{ 
 				type: 'menuItems', 
 				name: 'About Page', 
 				to: '/about',
-				icon: '../public/about.png'
+				icon: '../dist/assets/about.png'
 			},			
 			/* PDF Maps Page */
 			{ 
