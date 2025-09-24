@@ -9,8 +9,8 @@
       > 
         <router-link :to="item.to">
           <div>
-            <div class="border-2 w-16 text-lg rounded-full m-auto rounded-full inline-block border-2 border-white bg-red-800 text-white w-18 lg:w-16 lg:h-16 2xl:h-18 transition transform p-4 rounded hover:bg-red-800 hover:text-white transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">{{ item.icon }}</div>
-            <!-- <img :src="item.icon" class="rounded-full m-auto mb-4 rounded-full inline-block border-2 border-white bg-red-800 text-white w-18 lg:w-16 lg:h-16 2xl:h-18 transition transform p-4 rounded hover:bg-red-800 hover:text-white transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" alt="" /> -->
+            <!-- <div class="border-2 w-16 text-lg rounded-full m-auto rounded-full inline-block border-2 border-white bg-red-800 text-white w-18 lg:w-16 lg:h-16 2xl:h-18 transition transform p-4 rounded hover:bg-red-800 hover:text-white transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none">{{ item.icon }}</div> -->
+            <img :src="item.icon" class="rounded-full m-auto mb-4 rounded-full inline-block border-2 border-white bg-red-800 text-white w-18 lg:w-16 lg:h-16 2xl:h-18 transition transform p-4 rounded hover:bg-red-800 hover:text-white transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:transform-none" alt="" />
           </div>          
           <div>
             <div class="text-sm font-bold mb-6 mt-4">{{ item.name }}</div>
