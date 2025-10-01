@@ -1,7 +1,11 @@
 <template>
   <div class="bg-white border-2 border-gray-100">
       <div class="h-screen">
-        <h1 class="text-red-900 font-serif m-auto mt-12 mb-12 text-5xl 2xl:mt-18 2xl:mb-20 mb-10 font-bold">Internal Maps</h1>
+        <div class="text-red-900 -bottom-11font-serif m-auto w-10/12 my-10 lg:w-9/12 2xl:w-6/12">
+      <p class="text-red-900 font-serif m-auto mb-6 2xl:py-10 text-lg font-bold">
+        <span class="text-4xl text-red-900">Internal Maps </span>interactive websites were created for internal staff.  You will need city credentials to access these maps.
+      </p>
+    </div>
         <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-5 2xl:gap-10">
           <div
             v-for="item in items"

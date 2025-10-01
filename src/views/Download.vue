@@ -1,6 +1,10 @@
 <template>
   <div class="bg-white border-gray-100 border-2">
-    <h1 class="text-red-900 font-serif m-auto mt-12 mb-12 text-5xl 2xl:mt-18 2xl:mb-20 mb-10 font-bold">GIS Data</h1>
+    <div class="text-red-900 -bottom-11font-serif m-auto w-10/12 my-10 lg:w-9/12 2xl:w-6/12">
+      <p class="text-red-900 font-serif m-auto mb-6 2xl:py-10 text-lg font-bold">
+        <span class="text-4xl text-red-900">GIS Data </span>use raw datasets in themed dashboards to download information for your websites, applications or research. Search, filter and zoom in to quickly and easily select only the datasets that interest you. Can't find what you are looking for?   <a href="mailto: dwightl@cityofsherman.com" class="text-xl text-blue-500 font-semibold underline text-red-900"
+            target="_blank">   Contact us! </a></p>
+    </div>
     <div class="m-auto mb-10 w-40 grid h-fit pb-4 grid-cols-1 2xl:h-auto 2xl:w-1/2 2xl:grid-cols-5 2xl:gap-10">
       <div
        v-for="item in items"
