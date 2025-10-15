@@ -32,7 +32,7 @@ Downtown Denison has a combination of public and private parking lots. Look for 
           </a>
           </span><br>The Garbage Collection Map allows the public to see whether or not they receive garbage collection service from the City and on what day pick-up occurs. Links to service provider phone numbers and garbage cart ordering information is provided.</h1>
         </div>        
-        <div class="m-auto my-10">
+        <!-- <div class="m-auto my-10">
           <a href="https://cityofsherman.maps.arcgis.com/apps/dashboards/7ef89fd885e04d8e82d4ff2195a94b94" target="_blank" class="text-red-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">City Projects</a>        
             <h1 class="text-red-900 font-freight-sans-pro helvetica serif text-left m-auto mt-6 mb-1 text-lg 2xl:mt-18 2xl:mb-1 p-8"><span class="font-bold">Contact:   <a
             href="mailto: NateS@cityofsherman.com"
@@ -51,7 +51,7 @@ Downtown Denison has a combination of public and private parking lots. Look for 
             >Development Services
           </a>
           </span><br>The Planned Development Map allows users to see locations and data about new development in the City of Sherman.</h1>
-        </div>        
+        </div>         -->
       </div>
       <div class="m-auto w-1/2 mt-14 md:mt-12 md:w-1/4">
         <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
@@ -70,6 +70,15 @@ Downtown Denison has a combination of public and private parking lots. Look for 
           <router-link class="text-white bg-red-800 hover:bg-red-900 p-2 mx-4 rounded-md" to="/externals" tag="button">MORE MAPS</router-link>
         </div>
       </div>
+    </div>
+    <div class="relative w-full overflow-hidden h-24 md:relative md:w-full md:overflow-hidden md:h-48">
+      <div class="w-screen">
+        <img src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/02e72b43fd964d76a38a59d15d7ad4b3/data" alt="city base map">
+      </div>
+      <div class="absolute inset-y-0 right-0 w-3/4 bg-gradient-to-l from-yellow-800 to-transparent md:pl-96 md:w-3/4">
+        <h1 class="absolute mt-3 ml-60 text-sm text-black font-serif md:absolute md:mt-10 md:text-4xl md:pl-96">GIS Department</h1> 
+        <h1 class="absolute mt-8 ml-60 text-xs text-black font-serif md:absolute md:mt-20 md:text-2xl md:pl-96">City of Sherman</h1> 
+      </div>      
     </div>
   </div> 
 </template>
