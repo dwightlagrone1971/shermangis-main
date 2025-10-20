@@ -53,18 +53,18 @@ Downtown Denison has a combination of public and private parking lots. Look for 
           </span><br>The Planned Development Map allows users to see locations and data about new development in the City of Sherman.</h1>
         </div>         -->
       </div>
-      <div class="m-auto w-1/2 mt-14 md:mt-12 md:w-1/4">
-        <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
-          <h1 class="m-auto align-top text-2xl p-4">Want to download GIS data?</h1>
-          <h1 class="p-4">Find the datasets powering our GIS maps by vising our open data portal.</h1>
-          <router-link class="text-white bg-red-800 hover:bg-red-900 p-2 mx-4 rounded-md" to="/downloads" tag="button">VIEW THE DATASETS</router-link>
+      <div class="m-auto w-1/2 mt-14 md:mt-12 md:w-1/4 text-center">
+        <div class="center-text m-auto bg-gray-300 pb-8 mb-10 p-2">
+          <h1 class="m-auto align-top text-2xl pb-4 pl-4 pr-4">Want to download GIS data?</h1>
+          <h1 class="pl-4 pr-4">Find the datasets powering our GIS maps by vising our open data portal.</h1>
+          <router-link class="" to="/downloads"><button class="text-white bg-red-800 hover:bg-red-900 p-2 mt-10 mx-2 rounded-md">VIEW THE DATASETS</button></router-link>
         </div>
-        <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
+        <div class="m-auto border-2 bg-gray-300 pb-8 mb-10 p-2">
           <h1 class="m-auto align-top text-2xl pb-4 pl-4 pr-4">Your Place</h1>
-          <h1 class="pl-4 pr-4">Your Place provides a property information report that includes zoning information, polling place locations, police beats, legislative districts and much mor</h1>
+          <h1 class="pt-4 pl-4 pr-4">Your Place provides a property information report that includes zoning information, polling place locations, police beats, legislative districts and much mor</h1>
           <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626" target="_blank"><button class="text-white bg-red-800 hover:bg-red-900 p-2 mt-10 mx-2 rounded-md">VISIT "YOUR PLACE" NOW</button></a>
         </div>
-        <div class="m-auto bg-gray-300 pb-8 mb-10 p-2">
+        <div class="m-auto border-2 bg-gray-300 pb-8 mb-10 p-2">
           <h1 class="m-auto align-top text-2xl p-4">More Public Maps</h1>
           <h1 class="p-4">Find more public maps in our open data portal.</h1>
           <router-link class="text-white bg-red-800 hover:bg-red-900 p-2 mx-4 rounded-md" to="/externals" tag="button">MORE MAPS</router-link>
@@ -76,8 +76,8 @@ Downtown Denison has a combination of public and private parking lots. Look for 
         <img src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/02e72b43fd964d76a38a59d15d7ad4b3/data" alt="city base map">
       </div>
       <div class="absolute inset-y-0 right-0 w-3/4 bg-gradient-to-l from-gray-300 to-transparent md:pl-96 md:w-3/4">
-        <h1 class="absolute mt-3 ml-60 text-sm text-black font-serif md:absolute md:mt-10 md:text-4xl md:pl-96">GIS Department</h1> 
-        <h1 class="absolute mt-8 ml-60 text-xs text-black font-serif md:absolute md:mt-20 md:text-2xl md:pl-96">City of Sherman</h1> 
+        <h1 class="text-sm text-black font-serif pt-2 pl-32 md:absolute md:w-full md:mt-8 md:text-4xl">GIS Department</h1> 
+        <h1 class="text-sm text-black font-serif pl-32 md:absolute md:w-full md:mt-20 md:text-2xl">City of Sherman</h1> 
       </div>      
     </div>
   </div> 
