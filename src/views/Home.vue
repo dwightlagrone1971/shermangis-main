@@ -75,7 +75,7 @@ Downtown Denison has a combination of public and private parking lots. Look for 
       <div class="w-screen">
         <img src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/02e72b43fd964d76a38a59d15d7ad4b3/data" alt="city base map">
       </div>
-      <div class="absolute inset-y-0 right-0 w-3/4 bg-gradient-to-l from-gray-300 to-transparent md:pl-96 md:w-3/4">
+      <div class="absolute inset-y-0 right-0 w-3/4 bg-gradient-to-l from-red-900 to-transparent md:pl-96 md:w-3/4">
         <h1 class="text-sm text-black font-serif pt-2 pl-32 md:absolute md:w-full md:mt-8 md:text-4xl">GIS Department</h1> 
         <h1 class="text-sm text-black font-serif pl-32 md:absolute md:w-full md:mt-20 md:text-2xl">City of Sherman</h1> 
       </div>      
