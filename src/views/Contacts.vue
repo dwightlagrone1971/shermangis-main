@@ -1,9 +1,10 @@
 <template>
-  <div>
-    <h3 class="text-blue-900 font-serif m-auto text-5xl font-bold py-10 2xl:py-10">Contact Page</h3>
-    <div class="m-auto py-6 w-11/12 grid 2xl:grid-cols-3 2xl:w-8/12">
+  <div class="mb-16 w-screen pb-10 md:w-screen md:h-screen">
+    <div class="py-2 w-screen md:m-auto">
+      <h3 class="m-auto text-blue-900 w-72 font-serif m-auto text-5xl font-bold py-10 2xl:py-10">Contact Page</h3>
+      <div class="m-auto md:grid md:grid-cols-3 md:w-8/12">
       <div
-        class="py-8 px-8 mb-10 shadow-2xl rounded-3xl 2xl:w-72 border-2"
+        class="py-8 px-8 mb-10 shadow-2xl rounded-3xl 2xl:w-72 w-72 ml-16 mb-10"
         v-for="contact in items"
         :key="contact"
         style="background-color: #08244c"
@@ -31,6 +32,11 @@
           >Click to Email</a>
           </div>
         </div>
+      </div>
+      
+      </div>
+      <div class="md:m-auto">
+        <router-link class="bg-blue-900 w-full text-white p-3 mt-2 md:rounded" to="/about" tag="button">Back to About Page</router-link>
       </div>
     </div>
   </div>
