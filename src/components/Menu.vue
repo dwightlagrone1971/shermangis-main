@@ -1,5 +1,5 @@
 <template>
-  <div app style="background-color:#f3f3eb" class="pb-1 border-2 h-screen flex items-center justify-center font-poppins lg:h-24">
+  <div app style="background-color:#f3f3eb" class="pb-1 border-2 flex items-center justify-center font-poppins lg:h-24">
     <div class="pb-2 -bottom-11h-20 m-auto mt-14 w-36 grid grid-cols-1 w-8/12 lg:grid-cols-7 lg:w-8/12 2xl:-mt-8 2xl:grid-cols-7 2xl:w-6/12">
       <div
         v-on:click="scrollToElement"
