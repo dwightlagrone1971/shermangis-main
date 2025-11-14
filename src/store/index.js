@@ -200,6 +200,12 @@ const store = createStore({
 			},
 			{ 
 				type: 'external', 
+				name: 'Garbage Collection', 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cfa6684c762648a3b93fcf69d032eb99/data'
+			},			
+			{ 
+				type: 'external', 
 				name: 'Grayson Appraisal District', 
 				url: 'https://gis.bisclient.com/graysoncad/',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/269784b4af714265948976b6cbedf570/data' 
@@ -240,12 +246,6 @@ const store = createStore({
 				name: 'Thoroughfares', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/3b28c17a8cac472ab8ff18b0576cacfe',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f77f25745f94400e82177fad3d5ac5fc/data' 
-			},
-			{ 
-				type: 'external', 
-				name: 'Trash Pickup Days', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c',
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cfa6684c762648a3b93fcf69d032eb99/data'
 			},
 			{ 
 				type: 'external', 
