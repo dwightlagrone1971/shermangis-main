@@ -219,6 +219,12 @@ const store = createStore({
 			},
 			{ 
 				type: 'external', 
+				name: 'Project Site', 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/7ef89fd885e04d8e82d4ff2195a94b94',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c42c56982bf344a38405c3cfc48d8c9e/data'
+			},
+			{ 
+				type: 'external', 
 				name: 'Sex Offender Restricted Areas', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/7797ab097a38493da51128f124d91370',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f80338cd1cee44e2b559282d62047286/data' 
