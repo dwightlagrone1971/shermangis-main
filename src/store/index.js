@@ -152,6 +152,12 @@ const store = createStore({
             /* External Page */
 			{ 
 				type: 'external', 
+				name: 'All-In-One', 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/cb19b06c606f4ce1bd9e96b8817d4e07',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cc892bfe9583420084f8c027135d343f/data'
+			},
+			{ 
+				type: 'external', 
 				name: 'Annexations', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/2848ecc1229d454fa962392967548752',
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e50942cc436b413cbbc94dc52300f6fb/data'
