@@ -411,7 +411,7 @@ const store = createStore({
 				type: 'internal', 
 				name: 'Hydrant Maintenance', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/0156ab1a620d49a0b052814da3be563a', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/643a76f0119c4809aafe1965988327e6/data'
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/18e187b03d1e4e97a2f9566318a89c8c/data' 
 			},
 			// { 
 			// 	type: 'internal', 
@@ -429,7 +429,7 @@ const store = createStore({
 				type: 'internal', 
 				name: 'Water, Sewer & Drainage Map', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=68eed88408cb4db18ffbde113437089a', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/18e187b03d1e4e97a2f9566318a89c8c/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e4cd5a78b1934aa1b386dbccbac66344/data'
 			},
 			{ 
 				// type: 'internal', 
