@@ -399,7 +399,7 @@ const store = createStore({
 				type: 'internal', 
 				name: 'Ambulance Calls', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/9a005e56e03e46aca282179adac59671', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1b98e0e38dda4d448b29a669a2a7f614/data'  
 			},
 			// { 
 			// 	type: 'internal', 
@@ -429,7 +429,8 @@ const store = createStore({
 				type: 'internal', 
 				name: 'Water, Sewer & Drainage Map', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=68eed88408cb4db18ffbde113437089a', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e4cd5a78b1934aa1b386dbccbac66344/data'
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5ad2c7752fe24741970ea42a860814ae/data' 
+				
 			},
 			{ 
 				// type: 'internal', 
