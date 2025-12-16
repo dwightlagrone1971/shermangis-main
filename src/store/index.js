@@ -393,7 +393,7 @@ const store = createStore({
 				type: 'internal', 
 				name: 'Address Map', 
 				url: 'https://cityofsherman.maps.arcgis.com/apps/dashboards/f575843e8b1140e0ac69149ca266dc5f', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5ad2c7752fe24741970ea42a860814ae/data', 
 			},
 			{ 
 				type: 'internal', 
@@ -428,8 +428,9 @@ const store = createStore({
 			{ 
 				type: 'internal', 
 				name: 'Water, Sewer & Drainage Map', 
-				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=68eed88408cb4db18ffbde113437089a', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5ad2c7752fe24741970ea42a860814ae/data' 
+				url: 'https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=68eed88408cb4db18ffbde113437089a',
+				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/99d6540bb1274654956af567686abc35/data' 
+				
 				
 			},
 			{ 
