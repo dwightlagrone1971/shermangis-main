@@ -20,7 +20,7 @@
           </a>
           </span><br><span class="italic font-semibold">On-Street Parking</span> - 
 All street parking and along cross streets is available unless otherwise marked for special events.<br><span class="italic font-semibold">Off-Street Parking</span> - 
-Downtown Denison has a combination of public and private parking lots. Look for lots that have 'Free Public Parking' signs near their entrance.</h1>
+Downtown Sherman has a combination of public and private parking lots. Look for lots that have 'Free Public Parking' signs near their entrance.</h1>
         </div>
         <div class="m-auto my-10">
           <a href="https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c" target="_blank" class="text-blue-900 font-freight-sans-pro helvetica my-10 text-3xl underline tracking-widest" style="text-underline-offset: 10px;">Garbage Collection Map</a>        
