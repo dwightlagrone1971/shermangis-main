@@ -519,12 +519,12 @@ const store = createStore({
 				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cf38bef2ed614d07bd278e806b84ab39/data', 
 				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6831194a3fea4f91b03702b9cbc136e7/data'  
 			},
-			{ 
-				type: 'pdfMaps', 
-				name: 'Sherman Schools', 
-				url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/098b94114bec4031a3638978be32874e/data', 
-				src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/60aeaf41c1714393b6fbab4aee3ebd72/data'  
-			},
+			//{ 
+			//	type: 'pdfMaps', 
+			//	name: 'Sherman Schools', 
+			//	url: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/098b94114bec4031a3638978be32874e/data', 
+			//	src: 'https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/60aeaf41c1714393b6fbab4aee3ebd72/data'  
+			//},
 			{ 
 				type: 'pdfMaps', 
 				name: 'Thoroughfares Map', 
